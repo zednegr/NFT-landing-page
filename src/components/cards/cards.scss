@@ -1,0 +1,121 @@
+.cards-section {
+    padding-bottom: 152px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards-start {
+    padding-bottom: 62px;
+
+    .cards-start-h2 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144%;
+        /* 46.08px */
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 377px;
+    height: auto;
+    border-radius: 18px;
+    background: linear-gradient(222deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.04) 100%);
+    backdrop-filter: blur(20px);
+    padding: 25px;
+    border: 2px solid red;
+}
+
+.card-top {
+    padding-bottom: 14px;
+}
+
+.card-middle {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.card-middle-name {
+    width: 184px;
+    padding-bottom: 14px;
+
+    .card-middle-name-h4 {
+        color: rgba(255, 255, 255, 0.80);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 230%;
+        /* 41.4px */
+        letter-spacing: -1.26px;
+    }
+}
+
+.card-middle-user {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 6px;
+    padding-bottom: 28px;
+
+    .card-middle-user-p {
+        color: var(--6, #76778B);
+        font-family: Poppins;
+        font-size: 12.242px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 17.139px */
+    }
+}
+
+.card-bottom-btns {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 13px;
+
+    .card-bottom-btn-one {
+        width: 158px;
+        text-align: center;
+        padding: 15px 25px;
+        border-radius: 0px 18px;
+        background: linear-gradient(239deg, #D74037 0%, #E94A68 36.83%, #D735AC 80.62%);
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 108%;
+        /* 15.12px */
+        cursor: pointer;
+    }
+
+    .card-bottom-btn-two {
+        width: 158px;
+        text-align: center;
+        padding: 15px 25px;
+        border-radius: 0px 18px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 108%;
+        border: 2px solid red;
+        /* 15.12px */
+        cursor: pointer;
+    }
+}
