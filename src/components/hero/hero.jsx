@@ -12,7 +12,7 @@ function Hero() {
                     <div className="hero-left">
 
                         <div className="hero-left-info">
-                            <h1 className='hero-left-info-h1'>Discover rare digital art and collect NFTs</h1>
+                            <h1 className='hero-left-info-h1'>Discover rare digital art and collect <span>NFTs</span></h1>
                         </div>
 
                         <div className="hero-left-desc">
