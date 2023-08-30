@@ -57,7 +57,9 @@
     gap: 22px;
 
     .hero-left-btn-one {
+        width: 192px;
         padding: 15px 25px;
+        text-align: center;
         border-radius: 0px 18px;
         background: linear-gradient(239deg, #D74037 0%, #E94A68 36.83%, #D735AC 80.62%);
         cursor: pointer;
@@ -71,9 +73,9 @@
     }
 
     .hero-left-btn-two {
+        width: 192px;
+        text-align: center;
         padding: 15px 25px;
-        border-radius: 0px 18px;
-        border: 2px solid red;
         cursor: pointer;
         color: #FFF;
         font-family: Poppins;
@@ -81,6 +83,54 @@
         font-style: normal;
         font-weight: 500;
         line-height: 108%;
+        border-radius: 0px 18px;
+        border: 2px solid red;
         /* 15.12px */
+    }
+}
+
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-right-imgs {
+    padding-bottom: 64px;
+
+    img {
+        cursor: pointer;
+    }
+}
+
+.hero-right-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-right-rating-box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    .hero-right-rating-h3 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144%;
+        /* 46.08px */
+    }
+
+    .hero-right-rating-p {
+        color: rgba(255, 255, 255, 0.80);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 24px */
     }
 }
