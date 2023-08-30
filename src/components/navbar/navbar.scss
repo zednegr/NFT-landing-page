@@ -1,0 +1,63 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navbar-logo {
+        cursor: pointer;
+    }
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.navbar-item {
+    a {
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 108%;
+        /* 21.6px */
+    }
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.navbar-search {
+    .navbar-search-icon {
+        cursor: pointer;
+    }
+}
+
+.navbar-button {
+    .navbar_btn {
+        padding: 15px 25px;
+        background: transparent;
+        border-radius: 0px 18px;
+        border: 2px solid #D74037;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 108%;
+        cursor: pointer;
+    }
+}
