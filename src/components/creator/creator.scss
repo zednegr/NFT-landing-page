@@ -3,6 +3,23 @@
     padding-bottom: 80px;
 }
 
+.creator-start {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-bottom: 64px;
+
+    .creator-start-h2 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144%;
+        /* 46.08px */
+    }
+}
+
 .creator-wrapper {
     display: flex;
     justify-content: center;

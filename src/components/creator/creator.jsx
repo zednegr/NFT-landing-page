@@ -9,8 +9,13 @@ function Creator() {
     return (
         <section className="creator-section">
             <div className="container">
+
+                <div className="creator-start">
+                    <h2 className="creator-start-h2">Top creator this Week</h2>
+                </div>
+                
                 <div className="creator-wrapper">
-                    
+
                     <div className="creator-card">
                         <div className="creator-card-left">
                             <div className="creator-card-img">
@@ -27,7 +32,7 @@ function Creator() {
                             <div className="creator-right-box">+279.24%</div>
                         </div>
                     </div>
-
+                    
                     <div className="creator-card">
                         <div className="creator-card-left">
                             <div className="creator-card-img">
