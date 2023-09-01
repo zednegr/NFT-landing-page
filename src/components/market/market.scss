@@ -1,0 +1,44 @@
+.market-start {
+    padding-bottom: 64px;
+
+    .market-start-h2 {
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 144%;
+        /* 46.08px */
+    }
+}
+
+.market-start-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 78px;
+    gap: 18px;
+
+    .market-start-btn {
+        width: 158px;
+        text-align: center;
+        padding: 15px 25px;
+        border-radius: 0px 18px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 108%;
+        border: 2px solid red;
+        /* 15.12px */
+        cursor: pointer;
+        background: transparent;
+        transition: all .5s ease;
+
+        &:hover {
+            background: linear-gradient(239deg, #D74037 0%, #E94A68 36.83%, #D735AC 80.62%);
+            border: none;
+        }
+    }
+}
