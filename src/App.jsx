@@ -7,6 +7,7 @@ import Market from './components/market/market';
 import HeroTwo from './components/hero_two/hero_two';
 import Creator from './components/creator/creator';
 import Join from './components/join/join';
+import Footer from './components/footer/footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <HeroTwo />
       <Creator />
       <Join />
+      <Footer />
     </>
   )
 }
