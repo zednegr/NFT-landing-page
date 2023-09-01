@@ -12,9 +12,14 @@ function Footer() {
             <div className="container">
                 <div className="footer-wrapper">
                     <div className="footer-box">
-                        <img src={Logo} alt="Logo" />
+                        <img className="footer-logo" src={Logo} alt="Logo" />
                         <p className="footer-p">It is a long established fact that a reader will be of use</p>
-                        <input type="text" />
+
+                        <div className="footer-inp">
+                            <input className="footer-input" type="text" placeholder="Enter email" />
+                            <a className="footer-button">Subscribe</a>
+                        </div>
+
                     </div>
 
                     <div className="footer-box">
@@ -25,7 +30,7 @@ function Footer() {
                         <p className="footer-p">Author Profile</p>
                         <p className="footer-p">Create Collection</p>
                     </div>
-                    
+
                     <div className="footer-box">
                         <h4 className="footer-h4">Marketplace</h4>
                         <p className="footer-p">Explore</p>
