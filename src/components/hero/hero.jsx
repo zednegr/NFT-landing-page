@@ -3,10 +3,13 @@ import './hero.scss'
 
 // Import Images
 import HeroImg from "../../assets/svg/hero-right-img.svg"
+import BgLeft from "../../assets/svg/bg-left.svg"
+import BgRight from "../../assets/svg/bg-right.svg"
 
 function Hero() {
     return (
         <section className='hero-section'>
+            <div className="bg-effect"><img src={BgRight} alt="" /></div>
             <div className="container">
                 <div className="hero-wrapper">
                     <div className="hero-left">

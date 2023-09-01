@@ -3,7 +3,6 @@ import "./footer.scss"
 
 // Images
 import Logo from "../../assets/svg/NFT-logo.svg"
-import In from "../../assets/svg/in.svg"
 
 function Footer() {
 
