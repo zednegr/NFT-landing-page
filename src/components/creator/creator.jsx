@@ -10,16 +10,157 @@ function Creator() {
         <section className="creator-section">
             <div className="container">
                 <div className="creator-wrapper">
+                    
                     <div className="creator-card">
-                        <div className="creator-card-right">
+                        <div className="creator-card-left">
                             <div className="creator-card-img">
                                 <img src={CreatorAvatar} alt="Avatar" />
                             </div>
 
-                            <div className="cretor-card-name">
+                            <div className="creator-card-name">
                                 <h4 className="creator-card-name-h4">Super Mario</h4>  
                                 <p className="creator-card-name-p">12457</p>
                             </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
+                        </div>
+                    </div>
+
+                    <div className="creator-card">
+                        <div className="creator-card-left">
+                            <div className="creator-card-img">
+                                <img src={CreatorAvatar} alt="Avatar" />
+                            </div>
+
+                            <div className="creator-card-name">
+                                <h4 className="creator-card-name-h4">Super Mario</h4>  
+                                <p className="creator-card-name-p">12457</p>
+                            </div>
+                        </div>
+
+                        <div className="creator-right">
+                            <div className="creator-right-box">+279.24%</div>
                         </div>
                     </div>
                 </div>
