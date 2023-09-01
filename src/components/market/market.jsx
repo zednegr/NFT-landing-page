@@ -167,6 +167,10 @@ function Market() {
                         </div>
                     </div>
                 </div>
+
+                <div className="market-bottom">
+                    <a className="market-btn">View All</a>
+                </div>
             </div>
         </section>
     )

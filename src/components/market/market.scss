@@ -1,3 +1,7 @@
+.market-section {
+    padding-bottom: 80px;
+}
+
 .market-start {
     padding-bottom: 64px;
 
@@ -40,5 +44,28 @@
             background: linear-gradient(239deg, #D74037 0%, #E94A68 36.83%, #D735AC 80.62%);
             border: none;
         }
+    }
+}
+
+.market-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+
+    .market-btn {
+        width: 300px;
+        text-align: center;
+        padding: 15px 25px;
+        border-radius: 0px 18px;
+        color: #FFF;
+        font-family: Orbitron;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 144%; /* 31.68px */
+        background: linear-gradient(239deg, #D74037 0%, #E94A68 36.83%, #D735AC 80.62%);
+        /* 15.12px */
+        cursor: pointer;
     }
 }
