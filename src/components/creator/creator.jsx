@@ -15,7 +15,7 @@ function Creator() {
                 </div>
                 
                 <div className="creator-wrapper">
-                    sasdffds
+
                     <div className="creator-card">
                         <div className="creator-card-left">
                             <div className="creator-card-img">
